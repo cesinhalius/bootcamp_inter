@@ -37,9 +37,52 @@ for (let i = 0; i < numeros.length; i++) {
 */
 
 // 3)
-
-const nomes = ['valeria', 'joao','robson'];
+/*
+const nomes = ['valeria', 'j','r'];
     for (let i= 0; i< nomes.length; i++) {
         const nome = nomes[i];
+        
           
+    } 
+*/
+
+/* 
+4)
+    const numeros = [];
+    for (let i = 10; i <= 50; i++) {
+      if(i % 2 === 0){
+        numeros.push(i);
+      }
+      
     }
+    console.log(numeros);
+
+
+*/ 
+
+/* 
+5)
+
+const medias = [2, 7, 3, 8, 10, 4];
+const notas = [];
+  for (let i = 0; i < medias.length; i++) {
+    if(medias[i] < 5){
+      notas.push(medias[i]);
+    }
+  
+ }
+ console.log(notas);
+*/ 
+
+/* 
+6)
+
+const notas = [2, 7, 3, 8, 10, 4];
+
+function myArrayMax(num) {
+  return Math.max.apply(null, num);
+}
+
+console.log(myArrayMax(notas));
+
+*/ 
