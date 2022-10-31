@@ -37,6 +37,9 @@ body{
     text-align: right;
     font-size: .625rem;
 }
+.pokemon .name{
+    color: #fff;
+}
 
 .pokemon .detail{
     display: flex;
