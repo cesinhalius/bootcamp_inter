@@ -1,0 +1,161 @@
+.normal {
+    background: #bebdb2;
+} 
+.grass {
+    background: #8dd950;
+} 
+.fire {
+    background: #fa5643;
+} 
+.water {
+    background: #56aeff;
+} 
+.eletric {
+    background: #fde53e;
+} 
+.fighting {
+    background: #a85643;
+} 
+.flying {
+    background: #79a4ff;
+} 
+.poison {
+    background: #aa5da1;
+} 
+.ground {
+    background: #eccb56;
+} 
+.rock {
+    background: #cebd72;
+} 
+.bug {
+     background: #c3d21f;
+} 
+.ghost {
+    background: #7a75d8;
+} 
+.psychic {
+    background: #f361ae;
+} 
+.ice {
+    background: #96f1ff;
+} 
+.dragon {
+    background: #7b6de6;
+} 
+.dark {
+    background: #8e6956;
+} 
+.steel {
+    background: #c4c2db;
+} 
+.fairy {
+    background: #f9adff;
+} 
+
+.pokemons{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.pokemon{
+    display: flex;
+    flex-direction: column;
+    margin: .5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    
+}
+
+.pokemon .number{
+    color: #000;
+    opacity: .3;
+    text-align: right;
+    font-size: .625rem;
+}
+.pokemon .name{
+    color: #fff;
+    margin-bottom: .25rem;
+    text-transform: capitalize;
+}
+
+.pokemon .detail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pokemon .detail .types{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.pokemon .detail .types .type{
+    
+    border-radius: 1rem;
+    color: #fff;
+    filter: brightness(1.1);
+    font-size: .625rem;
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    text-align: center;
+}
+
+.pokemon .detail img{
+    max-width: 100%;
+    height: 70px;
+}
+
+.pagination{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+.pagination button{
+    background: #6c79db;
+    border: none;
+    border-radius: 1rem;
+    color: #fff;
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    font-size: .625rem;
+}
+
+
+
+
+
+
+/* Codigo de responsividade na pagina*/
+
+@media screen and (min-width: 992px){
+    .content{
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
+@media screen and (min-width: 380px){
+    .pokemons{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (min-width: 576px){
+    .pokemons{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media screen and (min-width: 992px){
+    .pokemons{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
