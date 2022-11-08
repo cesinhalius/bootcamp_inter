@@ -124,9 +124,9 @@
     border: none;
     border-radius: 1rem;
     color: #fff;
+    cursor: pointer;
     padding: .25rem .5rem;
     margin: .25rem 0;
-    font-size: .625rem;
 }
 
 
