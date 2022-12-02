@@ -14,6 +14,7 @@ export const InputContainer = styled.div`
   input {
     align-items: flex-end;
     background-color: #aaaaff;
+    border: none;
     color:#FFF;
     flex-direction:column;
     display: flex;
@@ -22,4 +23,6 @@ export const InputContainer = styled.div`
     padding:0 10px;
     width: 100%;
   }
+
+  
 `;
