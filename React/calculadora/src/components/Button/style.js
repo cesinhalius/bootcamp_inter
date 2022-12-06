@@ -3,9 +3,9 @@ import styled from 'styled-components';
 
 export const ButtonContainer = styled.button`
     padding: 20px;
-    border: 1px solid #CDCDCD;
-    background-color:#00AAF0;
-    color:#FFF;
+    border: 1px solid #000;
+    background-color:#CDCDCD;
+    color:#000;
     font-size:24px;
     font-weight: bold;
     flex: 1;
