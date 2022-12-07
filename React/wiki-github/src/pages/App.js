@@ -29,7 +29,7 @@ function App() {
       }
 
     }
-    alert('Repositório não encontrado')
+    alert('Repositório já encontrado')
 
   }
 
