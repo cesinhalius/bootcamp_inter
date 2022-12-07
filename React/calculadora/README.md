@@ -12,10 +12,12 @@ Esses projeto foi desenvolvido com as segintes tecnologias:
 
 ## Desenvolvimento
 
-[x] Adicionar função de adição
-[x] Adicionar função de Subtração
-[x] Adicionar função de Divisão
-[x] Adicionar função de Multiplicação
+| funcionalidades | status              |
+|-----------------| -------             |
+| Adicionar função de adição | :heavy_check_mark:  |
+| Adicionar função de Subtração| :heavy_check_mark:  |
+| Adicionar função de Divisão | :heavy_check_mark:  |                                   
+| Adicionar função de Multiplicação|:heavy_check_mark:|
 
 
 
