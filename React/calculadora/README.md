@@ -9,6 +9,7 @@ Projeto do bootcamp da inter sobre desenvolvimento utilizando React.js
 Esses projeto foi desenvolvido com as segintes tecnologias:
 
 - React.js
+
 ## Desenvolvimento
 
 [x] Adicionar função de adição
