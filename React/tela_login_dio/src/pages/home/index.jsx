@@ -10,7 +10,7 @@ const Home = () => {
 
     const navigate = useNavigate();
 
-    const ClickSignIn = () => {
+    const handleClickSignIn = () => {
         navigate('/login')
     }
 
@@ -30,7 +30,7 @@ const Home = () => {
                      desafio profissional, evoluindo em comunidade com os melhores experts.
                     </TextContent>
 
-                    <Button title="Começa Agora" variant="secondary" onClick={ClickSignIn} />
+                    <Button title="Começa Agora" variant="secondary" onClick={handleClickSignIn} />
                 </div>
                 <div>
                     <img src={bannerImage} alt="Imagem principal"/>
