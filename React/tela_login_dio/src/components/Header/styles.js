@@ -1,7 +1,6 @@
 import styled  from 'styled-components';
 
-export const Container = styled.div`
-   
+export const Container = styled.div`   
     width: 100%;
     max-width: 80%;
     height: 47px;
@@ -20,10 +19,10 @@ export const Row = styled.div`
 export const Wrapper = styled.div`
     background-color: #151515;
     width: 100%;
-    height: 47px;
-    display:flex
+    height: 57px;
+    display:flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
 `
 
 export const BuscarInputContainer = styled.div`
@@ -37,7 +36,7 @@ export const BuscarInputContainer = styled.div`
 `
 
 export const Menu = styled.a`
-    font-family: 'Open Sans';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -47,7 +46,7 @@ export const Menu = styled.a`
 `
 
 export const MenuRight = styled.a`
-    font-family: 'Open Sans';
+    font-family: 'Roboto';
     font-style: normal;
     font-size: 12px;
     line-height: 25px;

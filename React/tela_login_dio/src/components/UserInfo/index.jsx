@@ -1,12 +1,12 @@
 import { Container, NameText, UserPicture, Progress } from "./styles";
 
 
-const UserInfo = ({name, image, percentual}) => {
+const UserInfo = ({nome, image, percentual}) => {
     return(
         <Container>
             <UserPicture src={image}/>
             <div>
-                <NameText>{name}</NameText>
+                <NameText>{nome}</NameText>
                 <Progress percentual={percentual}/>
             </div>
         </Container>

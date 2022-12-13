@@ -3,10 +3,13 @@ import styled, {css}  from 'styled-components';
 export const ButtonContainer = styled.button`
     background: #565656;
     border-radius: 22px;
-    position: relative;
+    cursor:pointer;
     color: #FFFFFF;
-    padding: 2px 12px;
+    font-family:'Roboto';
+    font-weight:700;
     min-width: 120px;
+    position: relative;
+    padding: 2px 12px;
     width: 100%;
     
     ${({variant}) => variant !== "primary" && css`
@@ -17,7 +20,6 @@ export const ButtonContainer = styled.button`
         &::after {
             content: '';
             position: absolute;
-            border: 1px solid #E4105D;
             top: -5px;
             left: -6px;
             width: calc(100% + 10px);

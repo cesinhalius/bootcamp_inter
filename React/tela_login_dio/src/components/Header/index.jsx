@@ -1,16 +1,26 @@
+import { useNavigate } from "react-router-dom";
 import logo from "../../assets/logo-dio.png";
 
 import { Button } from '../Button';
 
-import { Container, Wrapper, BuscarInputContainer, Input, Row, Menu, MenuRight, UserPicture} from './styles';
+import { Container, Wrapper, BuscarInputContainer, Input, Row, Menu,UserPicture} from './styles';
 
 
 const Header = ({autenticado}) => {
+
+    const navigate = useNavigate();
+
+    const ClickSignIn = () => {
+        navigate('/login')
+    }
+    
     return (
         <Wrapper>
             <Container>
                 <Row>
-                    <img src={logo} alt="Logo da dio"/>
+                    
+                        <img src={logo} alt="Logo da dio"/>
+                    
                     {autenticado ? (
                         <>
                         <BuscarInputContainer>
@@ -30,8 +40,7 @@ const Header = ({autenticado}) => {
                         <UserPicture src="https://avatars.githubusercontent.com/u/43553774?v=4"/>
                     ) : (
                         <>
-                        <MenuRight href="/">Home</MenuRight>
-                        <Button title="Entrar"/>
+                        <Button title="Entrar" onClick={ClickSignIn}/>
                         <Button title="Cadastrar"/>
                         </>
                     )}
