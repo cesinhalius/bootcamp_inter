@@ -30,9 +30,9 @@ export const Row = styled.div`
 
 
 export const Title = styled.h2`
-    font-family: 'Open Sans';
+    font-family: 'Roboto';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 300;
     font-size: 32px;
     max-width: 90%;
     margin-bottom: 20px;
@@ -41,16 +41,16 @@ export const Title = styled.h2`
 `
 
 export const TitleLogin = styled.p`
-    font-family: 'Open Sans';
+    font-family: 'Roboto';
     font-style: normal;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 32px;
     line-height: 44px;
     margin-bottom: 8px;
 `
 
 export const SubtitleLogin = styled.p`
-    font-family: 'Open Sans';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;

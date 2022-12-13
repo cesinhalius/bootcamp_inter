@@ -16,20 +16,13 @@ const Feed = () => {
             <Card/>
             <Card/>
             <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
         </Column>
         <Column flex={1}>
             <TitleHighlight># RANKING 5 TOP DA SEMANA</TitleHighlight>
-               <UserInfo nome="Pablo Henrique" image="https://avatars.githubusercontent.com/u/45184516?v=" percentual={25}/>
-               <UserInfo nome="Pablo Henrique" image="https://avatars.githubusercontent.com/u/45184516?v=" percentual={65}/>
+               <UserInfo nome="Diego"         image="https://avatars.githubusercontent.com/u/2254731?v=4" percentual={85}/>
+               <UserInfo nome="Cesar Augusto" image="https://avatars.githubusercontent.com/u/43553774?v=4"percentual={75}/>
+               <UserInfo nome="Mayk Brito"    image="https://avatars.githubusercontent.com/u/6643122?v=4" percentual={65}/>
                <UserInfo nome="Pablo Henrique" image="https://avatars.githubusercontent.com/u/45184516?v=" percentual={45}/>
-               <UserInfo nome="Pablo Henrique" image="https://avatars.githubusercontent.com/u/45184516?v=" percentual={72}/>
         </Column>
     </Container>
     </>

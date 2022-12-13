@@ -21,7 +21,7 @@ const Home = () => {
                 <div>
                     <Title>
                         <TitleHighlight>
-                            Implemente <br/>
+                            Desenvolva <br/>
                         </TitleHighlight>
                     o seu futuro global agora!</Title>
 
