@@ -13,7 +13,7 @@ export const Container = styled.div`
 export const LoginContainer = styled.div`
     width: 100%;
     max-width: 420px;
-    background-color: #FFFFFF;
+    background-color: #E9E4F0;
     border-radius: 8px;
     padding: 20px;
     flex:1;
