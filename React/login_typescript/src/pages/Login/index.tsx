@@ -9,8 +9,8 @@ import { defaultValues, IFormLogin } from "./types";
 
 
 const schema = yup.object({
-    email:yup.string().email().required(),
-    password: yup.string().min(6).required()
+    email:yup.string().email("E-mail inválido").required('Campo Obrigatório'),
+    password: yup.string().min(6,"No minimo 6 caracteres").required("Campo Obrigatório")
 }).required();
 
 
